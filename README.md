@@ -2,7 +2,7 @@
 
 This is the project code for both the backend and frontend of Clock Corporation's KD Website that can be found [here](https://kd.clockcorp.com/)
 
-The Project is build in the following Technologies:
+The Project is built in the following Technologies:
 
 **Front-End:**
 * [React](https://reactjs.org/)
