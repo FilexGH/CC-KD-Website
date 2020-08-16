@@ -31,4 +31,9 @@ cd client
 npm install 
 ```
 
+You will have to replace the unique variables as following: 
+
+* On `server/config.json` you need to set your MongoDB cluster URL and Discord Bot Token
+* On `client/src/Components/KDApp/KDPage.js` you will have to set the `SERVER_URL` variables to your server url.
+
 **You can find commands about the usage in both `package.json` files.**
