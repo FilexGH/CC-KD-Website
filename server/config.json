@@ -1,0 +1,5 @@
+{
+    "prefix": "!kd", 
+    "mongoDBUrl": "MONGODB_URL",
+    "token": "DISCORD_BOT_TOKEN"
+}

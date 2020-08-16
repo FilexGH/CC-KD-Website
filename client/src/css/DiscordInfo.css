@@ -1,0 +1,113 @@
+div,
+p {
+  color: white;
+}
+
+strong {
+  color: var(--DICommandsTextC);
+}
+
+.DiscordInfo {
+  display: flex;
+  flex-direction: row;
+  width: 560px;
+  height: 330px;
+  background-color: var(--DIBackgroundColor);
+}
+
+.Indexer {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+}
+
+.IndexTitle {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: var(--DIIndexTitleC);
+}
+
+.Content {
+  width: 440px;
+  height: 300px;
+  padding: 15px 15px 15px 15px;
+  overflow-y: scroll;
+  scrollbar-width: 0;
+}
+
+.Content::-webkit-scrollbar {
+  display: none;
+}
+
+.Content > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Content > div > div > img {
+  width: 350px;
+}
+
+.Content > div > p > a {
+  text-decoration: none;
+  color: gray;
+}
+
+.Content > div > p > a:hover {
+  color: green;
+}
+
+.HeaderText {
+  font-weight: bold;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 150px;
+  height: 79.8px;
+  line-height: 50px;
+  background: var(--DIButtonsC);
+  cursor: pointer;
+}
+
+.Buttons:hover {
+  background: var(--DIButtonsHC);
+}
+
+.ButtonState {
+  width: 15px;
+  height: 100%;
+  background: var(--DIButtonStateD);
+}
+
+.Active {
+  background: var(--DIButtonStateA);
+}
+
+.Buttons > p {
+  width: 120px;
+}
+
+.ReturnButton {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background-color: var(--DIReturnButtonC);
+  width: 100%;
+  cursor: pointer;
+}
+
+.ReturnButton:hover {
+  background-color: var(--DIReturnButtonHC);
+  color: black;
+}

@@ -1,0 +1,58 @@
+.KDAppC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 555px;
+  height: 270px;
+  padding: 10px;
+  background-color: var(--KDWindowC);
+  color: white;
+}
+
+.KDAppC > textarea {
+  height: 255px;
+  width: 400px;
+  text-align: left;
+  background-color: var(--KDTextAreaC);
+  padding: 5px;
+  resize: none;
+}
+
+.KDAppC > textarea:focus,
+.Options > input:focus {
+  outline: none;
+}
+
+.Options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 266px;
+  width: 135px;
+}
+
+.Options > input,
+.Options > div {
+  height: 40px;
+  line-height: 40px;
+  color: var(--KDButtonTextC);
+  background-color: var(--KDButtonsC);
+}
+
+.Options > input,
+.Options > div {
+  width: 100%;
+  border: 0;
+  text-align: center;
+}
+
+.Options > div:hover {
+  cursor: pointer;
+  background-color: var(--KDButtonsHC);
+}
+
+.KDAppC > textarea::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,56 @@
+.App {
+  flex-direction: column;
+}
+
+.DivImages {
+  display: flex;
+  flex-direction: row;
+}
+
+.NavContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 370px;
+  transition: 1s;
+  color: var(--HomeTextColor);
+  opacity: 0.8;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+.NavContainer:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.NavContainer > div {
+  width: 100%;
+  background-color: var(--HomeButtonsColor);
+  color: var(--HomeTextColor);
+}
+
+.Name {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.KDApp,
+.DiscordBot {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+
+.KDApp {
+  background-image: url("../images/Divs/kdapp.jpg");
+}
+
+.DiscordBot {
+  background-image: url("../images/Divs/discord.jpg");
+}

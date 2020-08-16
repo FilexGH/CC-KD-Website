@@ -1,0 +1,58 @@
+:root {
+  --HomeTextColor: white;
+  --HomeButtonsColor: black;
+  --KDWindowC: rgba(0, 0, 0, 0.8);
+  --KDTextAreaC: rgba(230, 230, 230, 0.9);
+  --KDButtonTextC: black;
+  --KDButtonsC: rgba(200, 200, 200, 0.9);
+  --KDButtonsHC: rgba(210, 210, 210, 1);
+  --DataWindowBC: rgba(5, 5, 5, 0.8);
+  --DataWindowContainerC: rgba(30, 30, 30, 1);
+  --DWButtonsC: rgba(15, 15, 15, 1);
+  --DWButtonHC: orangered;
+  --DWTextC: white;
+  --DIBackgroundColor: rgba(30, 30, 30, 0.9);
+  --DICommandsTextC: rgb(184, 17, 17);
+  --DIIndexTitleC: rgb(10, 10, 10, 0.9);
+  --DIButtonsC: rgba(50, 50, 50, 0.9);
+  --DIButtonsHC: rgba(30, 30, 30, 0.9);
+  --DIButtonStateD: rgba(100, 100, 100, 0.9);
+  --DIButtonStateA: white;
+  --DIReturnButtonC: rgb(20, 20, 20);
+  --DIReturnButtonHC: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  font-family: "Raleway";
+  scrollbar-width: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url("../images/Backgrounds/HomePic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../font/Raleway.ttf");
+}
